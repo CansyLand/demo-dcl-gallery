@@ -1,0 +1,206 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Droid_01_collider"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "mesh" : 1,
+            "name" : "Droid_01"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "SciFiPack_MAT",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Icosphere.016",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3
+                }
+            ]
+        },
+        {
+            "name" : "Sphere.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "SciFi-Pallette",
+            "uri" : "SciFi-Pallette.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 226,
+            "max" : [
+                0.39649564027786255,
+                0.8373746275901794,
+                0.41689953207969666
+            ],
+            "min" : [
+                -0.39649564027786255,
+                0.003575463080778718,
+                -0.41689953207969666
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 226,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 226,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 240,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1208,
+            "max" : [
+                0.44951656460762024,
+                0.8234092593193054,
+                0.3797757625579834
+            ],
+            "min" : [
+                -0.44951653480529785,
+                0.028556782752275467,
+                -0.4708139896392822
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1208,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1208,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 1875,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2712,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2712,
+            "byteOffset" : 2712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1808,
+            "byteOffset" : 5424
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 7232
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14496,
+            "byteOffset" : 7712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14496,
+            "byteOffset" : 22208
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9664,
+            "byteOffset" : 36704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3750,
+            "byteOffset" : 46368
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 50120,
+            "uri" : "Droid_01.bin"
+        }
+    ]
+}

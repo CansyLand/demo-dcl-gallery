@@ -22,3 +22,7 @@ Droid
 Stairs
 
 Flexible wall
+
+<img src="https://github.com/CansyLand/demo-dcl-gallery/blob/main/images/scene_1.jpg?raw=true" />
+<img src="https://github.com/CansyLand/demo-dcl-gallery/blob/main/images/scene_2.jpg?raw=true" />
+<img src="https://github.com/CansyLand/demo-dcl-gallery/blob/main/images/scene_3.jpg?raw=true" />
